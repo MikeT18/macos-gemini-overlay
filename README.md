@@ -24,7 +24,7 @@ A simple macOS overlay application for pinning <code>gemini.google.com</code> to
   Otherwise, you can install the latest stable release from a Terminal with:
 
 ```bash
-python3 -m pip install macos-gemini-overlay
+python3 -m pip install .
 ```
 
   Once you've installed the package, you can enable it to be automatically launched at startup with:
