@@ -249,7 +249,7 @@ class AppDelegate(NSObject):
             source = CFMachPortCreateRunLoopSource(None, tap, 0)
             CFRunLoopAddSource(CFRunLoopGetCurrent(), source, kCFRunLoopCommonModes)
             CGEventTapEnable(tap, True)
-            CFRunLoopRun()  # Start the run loop
+
         else:
             print("Failed to create event tap. Check Accessibility permissions.")
         # Load the custom launch trigger if the user set it.
