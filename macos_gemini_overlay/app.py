@@ -71,7 +71,7 @@ class AppDelegate(NSObject):
             NSBackingStoreBuffered,
             False,
         )
-        self.window.setLevel_(NSFloatingWindowLevel)
+        self.window.setLevel_(NSNormalWindowLevel)
         self.window.setCollectionBehavior_(
             NSWindowCollectionBehaviorCanJoinAllSpaces
             | NSWindowCollectionBehaviorStationary
