@@ -19,7 +19,7 @@ A simple macOS overlay application for pinning <code>gemini.google.com</code> to
 
   The easiest approach is to download and execute the DMG installer (by clicking the image below) to place the program into your Applications folder.
 
-[![DMG Installer](images/dmg-installer-preview.png)](https://github.com/jzelenkov/macos-gemini-overlay/releases/download/0.0.3/macos-gemini-overlay.dmg)
+[![DMG Installer](images/dmg-installer-preview.png)](https://github.com/MikeT18/macos-gemini-overlay/releases/download/0.0.4/macos-gemini-overlay.dmg)
 
   Otherwise, you can install the latest stable release from a Terminal with:
 
@@ -69,7 +69,7 @@ macos-gemini-overlay --uninstall-startup
 Clone the repository and install dependencies:
 
 ```bash
-git clone https://github.com/jzelenkov/macos-gemini-overlay.git
+git clone https://github.com/MikeT18/macos-gemini-overlay.git
 cd macos-gemini-overlay
 python3 -m pip install -r macos_gemini_overlay/about/requirements.txt
 ```
